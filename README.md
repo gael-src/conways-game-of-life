@@ -16,6 +16,12 @@ https://www.youtube.com/watch?v=S-W0NX97DB0&ab_channel=ScienceEtonnante
 
 </br>
 
+#### Tutorial:
+
+https://www.youtube.com/watch?v=0uSbNMUU_94&ab_channel=Devistry
+
+</br>
+
 ## Web deploy
 
 https://gael-src.github.io/conways-game-of-life/
