@@ -10,7 +10,7 @@ setup(); // SETUP CALL
 randomCells(); // RANDOM CELLS CALL
 drawCells(); // DRAW CELLS CALL
 
-setInterval(step, 50); // STEP FUNCTION INTERVAL
+setInterval(step, 100); // STEP FUNCTION INTERVAL
 
 // SETUP FUNCTION
 function setup() {
