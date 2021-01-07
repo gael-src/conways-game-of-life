@@ -15,7 +15,7 @@ body {
 
 a {
 	color: #00b8ff;
-	font-weight: bold;
+	/* font-weight: bold; */
 	padding: 5px;
 	margin: 5px;
 	text-decoration: none;
@@ -42,9 +42,15 @@ td {
 	height: 10px;
 }
 
-span {
-	color: #222;
+/* span {
+	background: #fafaff;
+	color: #00b8ff;
 }
+
+span:hover {
+	background-color: #00b8ff;
+	color: #fafaff;
+} */
 
 #start,
 #clear,
