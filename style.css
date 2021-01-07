@@ -1,3 +1,33 @@
-h1 {
-	text-align: center;
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif, Arial, Helvetica;
+	scroll-behavior: smooth;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* COLOR */
+	color: #fafaff;
+}
+
+#canvas {
+	background-color: #fafaff;
+	margin: 50px;
+}
+
+/* GAEL_SRC LINK */
+.gael-src-link {
+	padding: 5px 10px;
+	margin: 50px 0;
+	color: #fafaff;
+	border: solid 1px #fafaff;
+	text-decoration: none;
+}
+
+.gael-src-link:hover {
+	color: black;
+	background-color: #fafaff;
 }
