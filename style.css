@@ -13,12 +13,14 @@ body {
 	color: #fafaff;
 }
 
+/* CANVAS GAME */
 #canvas {
+	border: solid 10px #fafaff;
 	background-color: #fafaff;
 	margin: 50px;
 }
 
-/* GAEL_SRC LINK */
+/* GAEL-SRC LINK */
 .gael-src-link {
 	padding: 5px 10px;
 	margin: 50px 0;
