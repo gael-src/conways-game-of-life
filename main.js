@@ -13,7 +13,7 @@ drawCells(); // DRAW CELLS CALL
 setInterval(step, 150); // STEP FUNCTION INTERVAL
 
 // SETUP FUNCTION
-function setup() {
+export function setup() {
 	canvas.width = size; // SIZE
 	canvas.height = size; // SIZE
 	context.scale(scale, scale); // SCALE
