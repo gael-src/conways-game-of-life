@@ -33,3 +33,15 @@ body {
 	color: black;
 	background-color: #fafaff;
 }
+
+a {
+	color: #00b8ff;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fafaff;
+}
