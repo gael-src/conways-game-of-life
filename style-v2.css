@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 50px;
+	padding: 10px;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif, Arial, Helvetica;
 	scroll-behavior: smooth;
@@ -11,6 +11,10 @@ body {
 	align-items: center;
 	/* COLOR */
 	color: #fafaff;
+}
+
+nav {
+	margin: 20px;
 }
 
 a {
@@ -42,6 +46,14 @@ td {
 	height: 10px;
 }
 
+span {
+	color: #00b8ff;
+}
+
+span:hover {
+	color: black;
+}
+
 /* span {
 	background: #fafaff;
 	color: #00b8ff;
@@ -61,14 +73,19 @@ span:hover {
 	border-radius: 5px;
 	border: none;
 	background: #fafaff;
-	color: #00b8ff;
+	/* color: #00b8ff; */
 }
 
 #start,
 #clear,
 #random:hover {
-	background: #00b8ff;
-	color: #fafaff;
+	/* background: #00b8ff; */
+	/* color: #fafaff; */
+}
+#start,
+#clear,
+#random:focus {
+	outline: 0;
 }
 
 td.dead {
