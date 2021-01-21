@@ -26,6 +26,10 @@ a:hover {
 	color: #fafaff;
 }
 
+p {
+	margin: 6px;
+}
+
 #gridContainer {
 	padding-bottom: 10px;
 }
