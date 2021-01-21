@@ -13,6 +13,89 @@ body {
 	color: #fafaff;
 }
 
+/* VERSION 1 */
+a {
+	color: #00b8ff;
+	/* font-weight: bold; */
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fafaff;
+}
+
+#gridContainer {
+	padding-bottom: 10px;
+}
+
+table {
+	background-color: #fafaff;
+	border-spacing: 0;
+}
+
+td {
+	/* border: 1px solid #f0f0f0; */
+	border: none;
+	/* border-radius: 2px; */
+	width: 10px;
+	height: 10px;
+}
+
+span {
+	color: #00b8ff;
+}
+
+span:hover {
+	color: black;
+}
+
+/* span {
+	background: #fafaff;
+	color: #00b8ff;
+}
+
+span:hover {
+	background-color: #00b8ff;
+	color: #fafaff;
+} */
+
+#start,
+#clear,
+#random {
+	width: 80px;
+	margin: 10px;
+	padding: 0.75em;
+	border-radius: 5px;
+	border: none;
+	background: #fafaff;
+	/* color: #00b8ff; */
+}
+
+#start,
+#clear,
+#random:hover {
+	/* background: #00b8ff; */
+	/* color: #fafaff; */
+}
+#start,
+#clear,
+#random:focus {
+	outline: 0;
+}
+
+td.dead {
+	background-color: transparent;
+}
+
+td.live {
+	background-color: #00b8ff;
+	/* border-radius: 10px; */
+}
+
+/* VERSION 2 */
+
 /* CANVAS GAME */
 #canvas {
 	border: solid 10px #fafaff;
@@ -34,9 +117,8 @@ body {
 	background-color: #fafaff;
 }
 
-a {
+/* a {
 	color: #00b8ff;
-	/* font-weight: bold; */
 	padding: 5px;
 	margin: 5px;
 	text-decoration: none;
@@ -44,4 +126,4 @@ a {
 
 a:hover {
 	color: #fafaff;
-}
+} */
